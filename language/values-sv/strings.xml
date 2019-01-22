@@ -1,0 +1,90 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="intro_benefit_headline">En säkrare väg till ett mer öppet Internet</string>
+  <string name="intro_benefit_body">När du använder Internet måste din enhet leta upp adresser i en kontaktlista för Internet. Ibland kan din anslutning ge dig fel adress.</string>
+  <string name="intro_manipulation_headline">Skydd mot fel adresser</string>
+  <string name="intro_manipulation_body">Vanir skyddar dig från att få dåliga adresser som leder till döda ändar (DNS-manipulering) genom att kryptera din DNS-anslutning.</string>
+  <string name="intro_details_headline">Vanir behöver övervaka nätverkstrafik för att möjliggöra skydd</string>
+  <string name="intro_details_body">Tryck på OK när du ser att anslutningsförfrågan startar. Som standard kommer dina frågor att dirigeras till Google Public DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Privacy Policy</a>). You can choose another service in the app settings.</string>
+  <string name="intro_back">tillbaks</string>
+  <string name="intro_next">nästa</string>
+  <string name="tools">Verktyg</string>
+  <string name="intro_accept">acceptera</string>
+  <string name="about_headline">Ärlig och säker DNS</string>
+  <string name="about_text">Vanir skyddar dina DNS-frågor genom att dirigera dem via en säker HTTPS-anslutning. Detta minskar
+     chans att du kommer att skickas till fel plats, eller om din webbläsning är blockerad eller observerad.</string>
+  <string name="privacy_text">Som standard kommer dina frågor att dirigeras till
+    <a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a>
+    (<a href="https://developers.google.com/speed/public-dns/privacy">Privacy Policy</a>).
+    Du kan också välja att använda <a href="https://cloudflare-dns.com">Cloudflare</a>
+    (<a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Privacy Policy</a>)
+    or any other DNS-over-HTTPS service.</string>
+  <string name="accept">Komma igång</string>
+  <string name="drawer_open">Öppna navigationslåda</string>
+  <string name="drawer_close">Stäng navigationslåda</string>
+  <string name="home">Hem</string>
+  <string name="settings">Inställningar</string>
+  <string name="feedback">Skicka Feedback</string>
+  <string name="support">Support</string>
+  <string name="privacy_link">Privacy Policy</string>
+  <string name="tos_link">Terms of Service</string>
+  <string name="source_code">Källkod</string>
+  <string name="short_credits_text">Vanir är ett experimentellt säkerhets projekt av <a href="https://www.google.com">Cybertrigo</a>.</string>
+  <string name="credits_text">Vanir är skapat av <a href="">Cybertrigo</a></string>
+  <string name="indicator_on">På</string>
+  <string name="indicator_off">Av</string>
+  <string name="status_exposed">Utsatt</string>
+  <string name="explanation_exposed">Din anslutning är utsatt för DNS-attacker.</string>
+  <string name="status_protected">Skyddad</string>
+  <string name="explanation_protected">Din anslutning är skyddad mot DNS-attacker.</string>
+  <string name="status_upgraded">Sårbar</string>
+  <string name="explanation_upgraded">Din anslutning är för närvarande skyddad av Android Private DNS, men en angripare kan inaktivera
+     eller undergräva detta skydd.</string>
+  <string name="status_strict">Skyddad av Android</string>
+  <string name="explanation_strict">Vanir har upptäckt att Android Private DNS-inställningen är aktiverad. Det betyder att dina DNS
+     Frågor är redan skyddade, så det finns ingen anledning att aktivera Vanir.</string>
+  <string name="status_starting">Startar…</string>
+  <string name="explanation_starting">Ett ögonblick. Vanir etablerar en serveranslutning.</string>
+  <string name="status_waiting">Väntar…</string>
+  <string name="explanation_offline">Din enhet är offline. Vanir väntar på en nätverksanslutning.</string>
+  <string name="explanation_vpn">Vanir har upptäckt ett annat VPN på din enhet. Om du aktiverar Vanir kommer den VPN att inaktiveras.
+     Vanir är inte lika säker som en pålitlig VPN.</string>
+  <string name="explanation_failing">Varning: Frågor misslyckas. Du kanske vill välja en annan server och starta omir.</string>
+  <string name="system_details">Systemdetaljer</string>
+  <string name="num_requests">Livstidsfrågor</string>
+  <string name="queries_per_minute">Senaste frågor</string>
+  <string name="transport_label">Krypterad transport</string>
+  <string name="insecure_transport_label">Okrypterad transport</string>
+  <string name="server_label">Säker DNS-server</string>
+  <string name="insecure_server_label">DNS-server som tillhandahålls på nätet</string>
+  <string name="unknown_server">(okänd server)</string>
+  <string name="show_history">Visa senaste sökfrågor</string>
+  <string name="query_label">Fråga</string>
+  <string name="type_label">Typ</string>
+  <string name="latency_label">Latens</string>
+  <string name="resolver_label">Besluten plats</string>
+  <string name="destination_label">Destinationsserver</string>
+  <string name="server_choice">Välj DNS via HTTPS Server</string>
+  <string name="server_choice_summary">För närvarande %s</string>
+  <string name="server_choice_custom">Anpassad serveradress</string>
+  <string name="server_choice_warning">Anpassad server, måste vara giltig: https:// URL</string>
+  <string name="excluded_apps">Uteslutna appar</string>
+  <string name="excluded_apps_summary">DNS-frågor från alla valda appar kommer inte att gå igenom Vanir. Om en app verkar vara oförenlig med Vanir kan du lägga till den här.</string>
+  <string name="excluded_apps_title">Markera appar som ska uteslutas från Vanir</string>
+  <string name="old_android">Den här funktionen är inte tillgänglig i din version av Android.</string>
+  <string name="before_feedback">Hjälp oss att förbättra Vanir! Vanir är en tidig produkt och vi behöver din hjälp för att göra det bättre.
+     Berätta vad som fungerar, och vad är det inte. Tack!</string>
+  <string name="feedback_hint">Din feedback</string>
+  <string name="after_feedback">Denna information kommer att skickas till Cybertrigo labbet. Inkludera inte personlig information
+     i din feedback</string>
+  <string name="submit_feedback">Lämna</string>
+  <string name="notification_title">DNS-skydd är aktivt</string>
+  <string name="notification_content">Tryck för att ändra DNS-skyddsinställningen</string>
+  <string name="channel_name">DNS-skydd aktiv anmälan</string>
+  <string name="channel_description">Den här meddelandet visas när DNS-skydd är aktivt.</string>
+  <string name="warning_title">Varning: Vanir har avaktiverats</string>
+  <string name="warning_channel_name">Varning</string>
+  <string name="warning_channel_description">Visas när Vanir har stött på ett problem.</string>
+  <!-- permissions -->
+  <string name="permissions_fail">Tyvärr, du måste godkänna alla tillståndsförfrågningar.</string>
+  <string name="permissions_accepted">Tillstånd accepteras.</string>
+</resources>

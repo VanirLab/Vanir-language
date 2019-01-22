@@ -1,0 +1,86 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="intro_benefit_headline">Una ruta más segura a un Internet más abierto</string>
+  <string name="intro_benefit_body">Cuando utilizas Internet, tu dispositivo busca direcciones en una lista de contactos de Internet. A veces, puede ocurrir que tu conexión te ofrezca una dirección incorrecta.</string>
+  <string name="intro_manipulation_headline">Protección contra direcciones incorrectas</string>
+  <string name="intro_manipulation_body">Vanir te ayuda a evitar direcciones incorrectas que dirigen a páginas no deseadas (manipulación de DNS) cifrando tu conexión DNS.</string>
+  <string name="intro_details_headline">Para ofrecer protección, Vanir necesita supervisar el tráfico de red</string>
+  <string name="intro_details_body">Para empezar, toca OK cuando veas la solicitud de conexión. De forma predeterminada, tus consultas se dirigirán a Google Public DNS (<a href="https://developers.google.com/speed/public-dns/privacy">política de privacidad</a>). Puedes elegir otro servicio en los ajustes de la aplicación.</string>
+  <string name="intro_back">atrás</string>
+  <string name="intro_next">siguiente</string>
+  <string name="intro_accept">aceptar</string>
+  <string name="about_headline">DNS seguro y honesto</string>
+  <string name="about_text">Vanir protege tus consultas de DNS enviándolas a través de una conexión segura de HTTPS.
+        Esto reduce la posibilidad de que se te redirija al sitio equivocado o que tu navegación sea bloqueada o monitorizada.</string>
+  <string name="privacy_text">De manera predeterminada, tus consultas se enviarán a
+    <a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a>
+    (<a href="https://developers.google.com/speed/public-dns/privacy">política de privacidad</a>).
+    También puedes usar <a href="https://cloudflare-dns.com">Cloudflare</a>
+    (<a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">política de privacidad</a>)
+    o cualquier otro servicio de DNS sobre HTTPS.</string>
+  <string name="accept">Comenzar</string>
+  <string name="drawer_open">Abre el panel de navegación</string>
+  <string name="drawer_close">Cierra el panel de navegación</string>
+  <string name="home">Inicio</string>
+  <string name="settings">Ajustes</string>
+  <string name="feedback">Enviar comentarios</string>
+  <string name="support">Asistencia</string>
+  <string name="privacy_link">Política de privacidad</string>
+  <string name="tos_link">Condiciones de uso</string>
+  <string name="source_code">Código fuente</string>
+  <string name="short_credits_text">Vanir es un proyecto experimental de código abierto desarrollado por <a href="https://google.com">Cybertrigo</a>.</string>
+  <string name="credits_text">Vanir ha sido desarrollado por
+            <a href="https://google.com">Cybbertrigo</a> con la ayuda de Google.
+            Las ubicaciones de las direcciones IP están basadas en información de DB-IP.com.</string>
+  <string name="indicator_on">Activado</string>
+  <string name="indicator_off">Desactivado</string>
+  <string name="status_exposed">En riesgo</string>
+  <string name="explanation_exposed">Tu conexión está en riesgo de sufrir ataques de DNS.</string>
+  <string name="status_protected">Protegida</string>
+  <string name="explanation_protected">Tu conexión está protegida frente a ataques de DNS.</string>
+  <string name="status_upgraded">Vulnerable</string>
+  <string name="explanation_upgraded">Tu conexión está protegida con el ajuste DNS privado de Android, pero un atacante podría inhabilitar o eludir esta protección.</string>
+  <string name="status_strict">Protegida por Android</string>
+  <string name="explanation_strict">Vanir ha detectado que el ajuste DNS privado de Android está habilitado. Esto significa que tus consultas de DNS ya están protegidas, por lo que no es necesario habilitar Vanir.</string>
+  <string name="status_starting">Iniciando…</string>
+  <string name="explanation_starting">Espera un momento. Vanir está estableciendo conexión con el servidor.</string>
+  <string name="status_waiting">Esperando…</string>
+  <string name="explanation_offline">Tu dispositivo no tiene conexión. Vanir está esperando una conexión de red.</string>
+  <string name="explanation_vpn">Vanir ha detectado otra VPN en tu dispositivo. Si habilitas Vanir, esa VPN se inhabilitará.
+    Vanir no es tan seguro como una VPN de confianza.</string>
+  <string name="explanation_failing">Advertencia: No se están procesando las consultas. Te aconsejamos que elijas otro servidor y reinicies Vanir.</string>
+  <string name="system_details">Detalles del sistema</string>
+  <string name="num_requests">Consultas totales</string>
+  <string name="queries_per_minute">Consultas recientes</string>
+  <string name="transport_label">Transporte encriptado</string>
+  <string name="insecure_transport_label">Transporte no encriptado</string>
+  <string name="server_label">Servidor DNS seguro</string>
+  <string name="insecure_server_label">Servidor DNS de la red</string>
+  <string name="unknown_server">(servidor desconocido)</string>
+  <string name="show_history">Mostrar consultas recientes</string>
+  <string name="query_label">Consulta</string>
+  <string name="type_label">Tipo</string>
+  <string name="latency_label">Latencia</string>
+  <string name="resolver_label">Ubicación del servidor DNS</string>
+  <string name="destination_label">Servidor de destino</string>
+  <string name="server_choice">Seleccionar servidor DNS sobre HTTPS</string>
+  <string name="server_choice_summary">Actualmente: %s</string>
+  <string name="server_choice_custom">URL de servidor personalizado</string>
+  <string name="server_choice_warning">El servidor personalizado debe ser una URL https:// válida</string>
+  <string name="excluded_apps">Aplicaciones excluidas</string>
+  <string name="excluded_apps_summary">Las consultas de DNS de las aplicaciones seleccionadas no se enviarán a través de Vanir. Si una aplicación parece ser incompatible con Vanir, puedes añadirla aquí.</string>
+  <string name="excluded_apps_title">Marcar aplicaciones que excluir de Vanir</string>
+  <string name="old_android">Esta función no está disponible en tu versión de Android.</string>
+  <string name="before_feedback">¡Ayúdanos a mejorar Vanir!
+        Vanir es un producto en desarrollo y necesitamos tu ayuda para mejorarlo.
+        Cuéntanos qué está funcionando y qué no. ¡Gracias!</string>
+  <string name="feedback_hint">Tus comentarios</string>
+  <string name="after_feedback">Esta información se enviará al equipo de Vanir. No incluyas ninguna información personal.</string>
+  <string name="submit_feedback">Enviar</string>
+  <string name="notification_title">Protección de DNS activada</string>
+  <string name="notification_content">Toca para cambiar la configuración de tu protección de DNS</string>
+  <string name="channel_name">Notificación de protección de DNS activada</string>
+  <string name="channel_description">Esta notificación aparece cuando la protección de DNS está activada</string>
+  <string name="warning_title">Protección de DNS activada</string>
+  <string name="warning_channel_name">Aviso</string>
+  <string name="warning_channel_description">Mostrado cuando Vanir ha encontrado un problema.</string>
+</resources>

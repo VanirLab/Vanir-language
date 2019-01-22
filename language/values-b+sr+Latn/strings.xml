@@ -1,0 +1,89 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="intro_benefit_headline">Sigurniji put do otvorenijeg interneta</string>
+  <string name="intro_benefit_body">Kada koristite Internet, vaš uređaj treba da traži adrese u listi kontakata na Internetu. Ponekad vam veza može dati pogrešnu adresu.</string>
+  <string name="intro_manipulation_headline">Zaštita od pogrešnih adresa</string>
+  <string name="intro_manipulation_body">Vanir vas štiti od dobijanja loših adresa koje dovode do prekida (DNS manipulacija) šifrovanjem vaše DNS veze.</string>
+  <string name="intro_details_headline">Vanir treba da prati mrežni saobraćaj kako bi omogućio zaštitu</string>
+  <string name="intro_details_body">Kucnite na OK kada vidite zahtev za povezivanje za početak. Prema zadanim postavkama, vaši upiti će biti preusmjereni na Google Public DNS (<a href="https://developers.google.com/speed/public-dns/privacy">Pravila o privatnosti</a>). U postavkama aplikacije možete izabrati drugu uslugu.</string>
+  <string name="intro_back">nazad</string>
+  <string name="intro_next">napred</string>
+  <string name="intro_accept">primi</string>
+  <string name="tools">Alati</string>
+  <string name="about_headline">Iskren i siguran DNS</string>
+  <string name="about_text">Vanir štiti vaše DNS upite usmjeravajući ih preko sigurne HTTPS veze. Ovo smanjuje šansu da ćete biti poslani na pogrešnu lokaciju, ili će vaše pretraživanje biti blokirano ili uočeno.</string>
+  <string name="privacy_text">By default, your queries will be routed to
+    <a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a>
+    (<a href="https://developers.google.com/speed/public-dns/privacy">Pravila o privatnosti</a>).
+    You can also choose to use <a href="https://cloudflare-dns.com">Cloudflare</a>
+    (<a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Pravila o privatnosti</a>)
+    ili bilo koju drugu DNS-over-HTTPS uslugu.</string>
+  <string name="accept">Početi</string>
+  <string name="drawer_open">Otvorite navigacijsku ladicu
+</string>
+  <string name="drawer_close">Zatvori navigacijsku ladicu</string>
+  <string name="home">Kuci</string>
+  <string name="settings">Podešavanja</string>
+  <string name="feedback">Pošaljite povratne informacije</string>
+  <string name="support">Podrška</string>
+  <string name="privacy_link">Pravila o privatnosti</string>
+  <string name="tos_link">Uslovi korišćenja</string>
+  <string name="source_code">Izvorni kod</string>
+  <string name="short_credits_text">Vanir je eksperimentalni projekat sigurnosti <a href="https://google.com">Cybertrigo</a>.</string>
+  <string name="credits_text">Vanir was made by <a href="https://google.com">Cybertrigo</a>.</string>
+  <string name="indicator_on">Na</string>
+  <string name="indicator_off">Van</string>
+  <string name="status_exposed">Izložena</string>
+  <string name="explanation_exposed">Vaša veza je izložena DNS napadima.</string>
+  <string name="status_protected">Zaštićeni</string>
+  <string name="explanation_protected">Vaša veza je zaštićena od DNS napada.</string>
+  <string name="status_upgraded">Ranjiva</string>
+  <string name="explanation_upgraded">Vašu vezu trenutno štiti Android Privatni DNS, ali napadač može onemogućiti
+    ili potkopati ovu zaštitu.</string>
+  <string name="status_strict">zaštićeno Androidom</string>
+  <string name="explanation_strict">Vanir je otkrio da je omogućena Android privatna DNS postavka. To znači da vaš DNS
+    upiti su već zaštićeni, tako da nema potrebe da omogućite Vanir.</string>
+  <string name="status_starting">Start…</string>
+  <string name="explanation_starting">Samo trenutak. Vanir uspostavlja serversku vezu.</string>
+  <string name="status_waiting">Cekanje…</string>
+  <string name="explanation_offline">Vaš uređaj je van mreže. Vanir čeka na mrežnu vezu.</string>
+  <string name="explanation_vpn">Vanir je otkrio još jedan VPN na vašem uređaju. Ako omogućite Vanir, VPN će biti onemogućen.
+    Vanir nije siguran kao VPN.</string>
+  <string name="explanation_failing">Upozorenje: upiti su neuspešni. Možda ćete želeti da izaberete drugi server i ponovo pokrenete Vanir.</string>
+  <string name="system_details">Detalji o sistemu</string>
+  <string name="num_requests">Doživotne upite</string>
+  <string name="queries_per_minute">Skorašnji upite</string>
+  <string name="transport_label">Sifrovani transport</string>
+  <string name="insecure_transport_label">Unencripted transport</string>
+  <string name="server_label">Siguran DNS server</string>
+  <string name="insecure_server_label">Mreze-obezbijeđen DNS server</string>
+  <string name="unknown_server">(nepoznati server)</string>
+  <string name="show_history">Prikaži nedavne upite</string>
+  <string name="query_label">Upite</string>
+  <string name="type_label">Tip</string>
+  <string name="latency_label">Latentnost</string>
+  <string name="resolver_label">Resolver lokacija</string>
+  <string name="destination_label">Odredište server</string>
+  <string name="server_choice">Izaberite DNS preko HTTPS Server</string>
+  <string name="server_choice_summary">Trenutno %s</string>
+  <string name="server_choice_custom">Običaj server URL</string>
+  <string name="server_choice_warning">Prilagođeni server mora biti važeći https:// URL</string>
+  <string name="excluded_apps">Izuzete aplikacije</string>
+  <string name="excluded_apps_summary">DNS upiti iz bilo koje odabrane aplikacije neće proći kroz Vanir. Ako aplikacija izgleda
+    Nekompatibilan sa Vanir, možete ga dodati ovde
+.</string>
+  <string name="excluded_apps_title">Označite aplikacije da biste isključili Vanir</string>
+  <string name="old_android">Ova funkcija nije dostupna na vašoj verziji Androida.</string>
+  <string name="before_feedback">Pomozite nam da poboljšamo Vanira! Vanir je proizvod u ranoj fazi i potrebna nam je vaša pomoć da bismo ga poboljšali.
+    Recite nam šta radi, a što nije. Hvala!</string>
+  <string name="feedback_hint">Vaš komentar</string>
+  <string name="after_feedback">Ove informacije će biti poslane Cybertrigo timu. Molimo Vas da ne unosite nikakve lične podatke
+    u povratnim informacijama.</string>
+  <string name="submit_feedback">Prihvati</string>
+  <string name="notification_title">DNS zaštita je aktivna</string>
+  <string name="notification_content">Dodirnite da biste promenili postavku DNS zaštite</string>
+  <string name="channel_name">DNS Zaštita Aktivno obaveštenje</string>
+  <string name="channel_description">Ovo obaveštenje se pojavljuje kada je DNS zaštita aktivna.</string>
+  <string name="warning_title">Upozorenje: Vanir je deaktiviran</string>
+  <string name="warning_channel_name">Upozorenje</string>
+  <string name="warning_channel_description">Prikazuje se kada je Vanir naišao na problem.</string>
+</resources>
